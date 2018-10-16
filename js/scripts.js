@@ -6,10 +6,10 @@ $(document).ready(function() {
 
   $("button#dark").click(function() {
     $("body").removeClass();
-    $("body").addClass ("dark-background");
+    $("body").addClass("dark-background");
   });
 
-  $("button#normal").click(function() {
+  $("button#original").click(function() {
     $("body").removeClass();
   });
 
@@ -19,12 +19,15 @@ $(document).ready(function() {
     $("#initially-hidden").slideToggle();
   });
   $(".showsecond").click(function() {
+    $(".first").addClass("box-text");
     $(".second").fadeIn();
   });
   $(".showthird").click(function() {
+    $(".second").addClass("box-text");
     $(".third").fadeIn();
   });
   $(".showfourth").click(function() {
+    $(".third").addClass("box-text");
     $(".fourth").fadeIn();
   });
 });

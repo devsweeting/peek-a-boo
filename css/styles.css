@@ -41,3 +41,7 @@
   color: #DCDCDC;
   background-color: #434343;
 }
+
+.box-text {
+  border: solid black 2px;
+}
