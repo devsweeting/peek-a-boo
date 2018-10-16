@@ -2,7 +2,7 @@
   display: none
 }
 
-.clickable {
+.clickable, .showsecond, .showthird, .showfourth {
   cursor: pointer;
   color: #0088cc
 }
@@ -30,4 +30,14 @@
 
 .showtext:hover {
   text-decoration: underline;
+}
+
+.light-background {
+  background-color: #DCDCDC;
+  color: #434343;
+}
+
+.dark-background {
+  color: #DCDCDC;
+  background-color: #434343;
 }
