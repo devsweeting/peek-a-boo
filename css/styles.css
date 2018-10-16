@@ -10,3 +10,24 @@
 .clickable:hover {
   text-decoration: underline;
 }
+
+.second {
+  display: none;
+}
+
+.third {
+  display: none;
+}
+
+.fourth {
+  display: none;
+}
+
+.showtext {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.showtext:hover {
+  text-decoration: underline;
+}
